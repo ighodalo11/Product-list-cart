@@ -1,0 +1,57 @@
+@media (max-width : 83rem) {
+    
+    html {
+        font-size: 56.25%;
+    }
+
+    .add-to-cart-btn {
+        padding: .8rem 3rem;
+        left: 60px;
+    }
+}
+
+@media (max-width : 74rem) {
+    html {
+        font-size: 50%;
+    }
+
+    .add-to-cart-btn {
+        padding: .8rem 2.5rem;
+        left: 55px;
+    }
+}
+
+@media (max-width : 68rem) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .add-to-cart-btn {
+        left: 45px;
+    }
+}
+
+/* COMPLETE THIS */
+@media (max-width : 56.5rem) {
+    html {
+        font-size: 37.5%;
+    }
+
+    .add-to-cart-btn {
+        left: 25px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width : 23.4rem) {
+    html {
+        max-width: 31.25%
+    }
+}
