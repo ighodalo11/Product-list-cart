@@ -206,6 +206,12 @@ p {
     margin-bottom: 4rem;
 }
 
+.flex-item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .position-container {
     position: relative;
 }
@@ -239,6 +245,9 @@ p {
     align-items: center;
 }
 
+.cart-card-paragraph {
+    font-weight: var(--font-weight-semi-bold);
+}
 
 
 
