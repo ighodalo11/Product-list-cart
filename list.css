@@ -187,10 +187,9 @@ p {
 }
 
 /*---------------- SECTION ----------------*/
-.flex-container {
+/* .flex-container {
     display: flex;
-    gap: 40px;
-}
+} */
 
 .cart-heading {
     margin-top: 8rem;
@@ -199,6 +198,7 @@ p {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
     column-gap: 25px;
     row-gap: 25px;
     margin-top: 4rem;
@@ -230,9 +230,12 @@ p {
    display: flex;
    flex-direction: column;
    align-self: flex-start;
-   position: sticky;
-   top: 1rem;
-   width: 370px;
+   position: fixed;
+   max-width: 360px;
+   width: 100%;
+   top: 60px;
+   right: 30px;
+   min-width: 350px;
    padding: 3rem 1.5rem;
    border-radius: 10px;
 }
